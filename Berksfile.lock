@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "nginx": {
+      "path": "./site-cookbooks/nginx"
+    },
+    "php-env": {
+      "path": "./site-cookbooks/php-env"
+    },
+    "ruby-env": {
+      "path": "./site-cookbooks/ruby-env"
+    },
+    "env-proxy": {
+      "path": "./site-cookbooks/env-proxy"
+    }
+  }
+}

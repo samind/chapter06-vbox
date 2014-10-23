@@ -1,0 +1,11 @@
+{
+  "run_list": [
+      "recipe[nginx]",
+      "recipe[php-env::php55]",
+      "recipe[env-proxy]",
+      "recipe[ruby-env]"
+  ],
+  "automatic": {
+    "ipaddress": "192.168.1.206"
+  }
+}
