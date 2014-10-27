@@ -1,5 +1,5 @@
 #!/bin/bash
-file=/home/vagrant/.gitconfig
+file=/home/comtra/.gitconfig
 
 if [ -e $file ]; then
     exit 0
